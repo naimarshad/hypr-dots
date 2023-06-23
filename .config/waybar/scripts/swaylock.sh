@@ -1,0 +1,20 @@
+swaylock \
+	--screenshots \
+	--clock \
+	--indicator \
+	--indicator-caps-lock \
+	--indicator-radius 280 \
+	--indicator-thickness 14 \
+	--effect-blur 8x6 \
+	--fade-in 2 \
+	--effect-vignette 0.5:0.5 \
+	--line-color 9cad1a \
+	--ring-color bd090c \
+	--inside-color 000000 \
+	--separator-color f7edef \
+	--text-color ffffff \
+	--key-hl-color ffffff \
+	--bs-hl-color 00000088 \
+	--text-caps-lock-color de1219 \
+	--grace 1 \
+	--fade-in 0.2
