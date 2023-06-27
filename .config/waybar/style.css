@@ -1,7 +1,7 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  /* font-family: Fira Code Regular Nerd Font Complete Mono; */
-  font-size: 18px;
+  font-family: Fira Code Regular Nerd Font Complete Mono;
+  font-size: 17px;
 }
 
 @import "mocha.css";

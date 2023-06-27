@@ -7,18 +7,19 @@
     "margin-bottom": 0,
     "margin-right": 0,
     "spacing": 5, 
-    "modules-left": ["custom/launcher", "wlr/workspaces", "hyprland/window"],
-    "modules-center": ["clock"],
-    "modules-right": ["tray", "backlight", "pulseaudio", "cpu", "memory", "bluetooth", "battery" , "custom/power-menu",],
+    "modules-left": ["custom/launcher", "wlr/workspaces",],
+    "modules-center": [],
+    "modules-right": ["tray", "backlight", "pulseaudio", "cpu", "memory", "bluetooth", "battery", "clock", "custom/power-menu"],
     "wlr/workspaces": {
-      "format": "{icon}",
+      //"format": "{icon}",
       "on-click": "activate",
       "format-icons": {
         "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": "",
+        "2": "  ",
+        "3": "  ",
+        "4": "  ",
+        "5": "  ",
+        "6": "  ",
         "urgent": "",
         "active": "",
         "default": ""
@@ -28,7 +29,7 @@
         "format": "{}"
     },
     "tray": {
-        "spacing": 5
+        "spacing": 10
     },
     "clock": {
         "format": "<span color='#bf616a'> </span>{:%I:%M %p}",
@@ -116,7 +117,7 @@
         "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
     }, 
     "custom/launcher": {
-        "format": " <span color='#6a92d7'> </span>",
+        "format": " <span color='#6a92d7'> </span>",
         "on-click": "rofi -show drun",
     },
 }
